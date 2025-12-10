@@ -1,9 +1,9 @@
 package auth
 
 import (
-	"testing"
-	"net/http"
 	"errors"
+	"net/http"
+	"testing"
 )
 
 func TestGetAPIKey(t *testing.T) {
@@ -46,6 +46,5 @@ func TestGetAPIKey(t *testing.T) {
 			t.Fatalf("expected api key 'abc123', got %s", apiKey)
 		}
 	})
-
 
 }
